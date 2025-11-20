@@ -1,22 +1,5 @@
-# Comprehensive Linux Bash Scripting Review
+# Bash Cheet Sheet
 
-## Table of Contents
-
-1. [Introduction to Bash](#introduction)
-2. [Shell Basics](#shell-basics)
-3. [Variables](#variables)
-4. [Input/Output](#input-output)
-5. [Conditional Statements](#conditionals)
-6. [Loops](#loops)
-7. [Functions](#functions)
-8. [File Operations](#file-operations)
-9. [Process Management](#processes)
-10. [Command Line Arguments](#arguments)
-11. [Redirection and Pipes](#redirection)
-12. [Cron Jobs](#cron)
-13. [Best Practices](#best-practices)
-
----
 
 ## Introduction to Bash {#introduction}
 
@@ -1272,54 +1255,3 @@ df, du, free         # System info
 
 ---
 
-## Practice Exercises
-
-### Exercise 1: User Management Script
-Create a script that adds a new user, sets up their home directory, and logs the action.
-
-### Exercise 2: Log Analyzer
-Write a script that analyzes log files and reports the most common error messages.
-
-### Exercise 3: Automated Cleanup
-Create a script that finds and deletes files older than 30 days in a specified directory.
-
-### Exercise 4: System Health Report
-Write a script that generates a daily system health report including CPU, memory, and disk usage.
-
-### Exercise 5: Backup Rotation
-Create a backup script that keeps only the last 7 daily backups and 4 weekly backups.
-
----
-
-## Additional Resources
-
-### Official Documentation
-- Bash Manual: `man bash`
-- Bash Guide: https://mywiki.wooledge.org/BashGuide
-- Advanced Bash-Scripting Guide: https://tldp.org/LDP/abs/html/
-
-### Tools
-- ShellCheck: Static analysis tool for shell scripts
-- Bash Debugger: bashdb
-- Online validators: shellcheck.net
-
-### Style Guides
-- Google Shell Style Guide
-- Bash Best Practices
-
----
-
-## Conclusion
-
-This comprehensive review covers the fundamentals and advanced concepts of Bash scripting. Practice regularly, read other people's scripts, and always follow best practices for writing maintainable and secure scripts.
-
-Remember:
-- Always use `set -euo pipefail` for safety
-- Quote your variables
-- Use functions for code organization
-- Add comments and documentation
-- Test your scripts thoroughly
-- Follow security best practices
-- Use version control (Git) for your scripts
-
-Happy scripting!
