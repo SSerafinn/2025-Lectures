@@ -36,7 +36,7 @@ class DicePage extends StatelessWidget {
 }
 ```
 
-> **💡 Note:** `DicePage` is currently a [`StatelessWidget`](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html) — an empty container for now. We'll be building it up progressively.
+> **Note:** `DicePage` is currently a [`StatelessWidget`](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html) — an empty container for now. We'll be building it up progressively.
 
 ---
 
@@ -176,7 +176,7 @@ GestureDetector(
 
 Before we wire up the tap to actually change the dice image, let's take a detour into Dart fundamentals.
 
-> **📖 Reference:** [A tour of the Dart language – Variables](https://dart.dev/language/variables)
+> **Reference:** [A tour of the Dart language – Variables](https://dart.dev/language/variables)
 
 ### 5.1 Declaring Variables
 
@@ -194,9 +194,9 @@ Dart is **strongly typed**, but uses type inference with `var` when the type is 
 
 | Keyword | Set At | Can Change? | Example |
 |---|---|---|---|
-| `var` / typed | Runtime | ✅ Yes | `int score = 0;` |
-| `final` | Runtime (once) | ❌ No | `final name = getName();` |
-| `const` | Compile time | ❌ No | `const pi = 3.14;` |
+| `var` / typed | Runtime | Yes | `int score = 0;` |
+| `final` | Runtime (once) | No | `final name = getName();` |
+| `const` | Compile time | No | `const pi = 3.14;` |
 
 > **📖 Reference:** [Dart language – final and const](https://dart.dev/language/variables#final-and-const)
 
@@ -275,7 +275,7 @@ class _MyWidgetState extends State<MyWidget> {
 }
 ```
 
-> **💡 Shortcut:** In VS Code or Android Studio, type `stful` and press `Enter` to generate a `StatefulWidget` scaffold automatically.
+> **Shortcut:** In VS Code or Android Studio, type `stful` and press `Enter` to generate a `StatefulWidget` scaffold automatically.
 
 ### Why Did We Get an Immutable Warning?
 
@@ -292,7 +292,7 @@ This is because a `StatelessWidget` is *not supposed to hold changing data*. The
 
 ## 8. Wiring It All Together with `setState()`
 
-> **📖 Reference:** [State.setState method](https://api.flutter.dev/flutter/widgets/State/setState.html)
+> **Reference:** [State.setState method](https://api.flutter.dev/flutter/widgets/State/setState.html)
 
 Here's our fully converted `StatefulWidget`:
 
@@ -354,14 +354,14 @@ Simply changing a variable's value is not enough — Flutter doesn't know it nee
 2. **Triggers a rebuild** of the `build()` method, so the UI reflects the new value
 
 ```
-User taps → setState() called → build() runs again → UI updates ✅
+User taps → setState() called → build() runs again → UI updates 
 ```
 
 > Without `setState()`, the variable changes in memory but the screen stays the same.
 
 ---
 
-## 9. Challenge: Add Randomness 🎲
+## 9. Challenge: Add Randomness
 
 Now that you understand how `setState()` works, try this on your own:
 
@@ -377,7 +377,7 @@ import 'dart:math';
 leftDieNumber = Random().nextInt(6) + 1;
 ```
 
-> **📖 Reference:** [dart:math library](https://api.dart.dev/stable/dart-math/dart-math-library.html)
+> **Reference:** [dart:math library](https://api.dart.dev/stable/dart-math/dart-math-library.html)
 
 ---
 
@@ -385,12 +385,12 @@ leftDieNumber = Random().nextInt(6) + 1;
 
 | Concept | Key Takeaway | Docs |
 |---|---|---|
-| `Scaffold` | Top-level layout structure for Material apps | [→](https://api.flutter.dev/flutter/material/Scaffold-class.html) |
-| `Expanded` | Makes a widget fill available space dynamically | [→](https://api.flutter.dev/flutter/widgets/Expanded-class.html) |
-| `Padding` | Adds spacing around a child widget | [→](https://api.flutter.dev/flutter/widgets/Padding-class.html) |
-| `Image.asset()` | Shorthand for loading images from the assets folder | [→](https://api.flutter.dev/flutter/widgets/Image/Image.asset.html) |
-| `GestureDetector` | Detects taps (and other gestures) on any widget | [→](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html) |
-| String Interpolation | `'dice$number.png'` dynamically builds a string | [→](https://dart.dev/language/built-in-types#strings) |
-| `StatelessWidget` | Immutable — good for static UI | [→](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html) |
-| `StatefulWidget` | Holds mutable state — good for interactive UI | [→](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html) |
-| `setState()` | Notifies Flutter to rebuild the UI after a state change | [→](https://api.flutter.dev/flutter/widgets/State/setState.html) |
+| `Scaffold` | Top-level layout structure for Material apps | [Link](https://api.flutter.dev/flutter/material/Scaffold-class.html) |
+| `Expanded` | Makes a widget fill available space dynamically | [Link](https://api.flutter.dev/flutter/widgets/Expanded-class.html) |
+| `Padding` | Adds spacing around a child widget | [Link](https://api.flutter.dev/flutter/widgets/Padding-class.html) |
+| `Image.asset()` | Shorthand for loading images from the assets folder | [Link](https://api.flutter.dev/flutter/widgets/Image/Image.asset.html) |
+| `GestureDetector` | Detects taps (and other gestures) on any widget | [Link](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html) |
+| String Interpolation | `'dice$number.png'` dynamically builds a string | [Link](https://dart.dev/language/built-in-types#strings) |
+| `StatelessWidget` | Immutable — good for static UI | [Link](https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html) |
+| `StatefulWidget` | Holds mutable state — good for interactive UI | [Link](https://api.flutter.dev/flutter/widgets/StatefulWidget-class.html) |
+| `setState()` | Notifies Flutter to rebuild the UI after a state change | [Link](https://api.flutter.dev/flutter/widgets/State/setState.html) |
