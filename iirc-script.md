@@ -31,15 +31,17 @@ And third, what enhancements can further improve the system?
 
 ---
 
-### SLIDE 4 — METHODS *(45 seconds)*
+### SLIDE 4 — METHODS *(1 minute 30 seconds)*
 
-We used a **descriptive-developmental research design**.
+For this study, we adopted a **descriptive-developmental research design**. The *descriptive* component allowed us to characterize the navigation problems experienced on campus, while the *developmental* component guided us through the actual design, building, and refinement of the AR application itself. This dual approach was essential because our goal was not only to understand a problem, but to engineer a working solution.
 
-Our participants included students, faculty, and visitors who shared their navigation challenges, as well as IT specialists who evaluated the final system.
+Our participants came from two groups. The **first group** included students, faculty members, and visitors of St. Paul University Philippines — the actual end-users whose lived experiences shaped the system's requirements. The **second group** consisted of IT specialists, who evaluated the finished application against established software quality standards.
 
-We used an interview guide to identify the problems, and the **ISO 25010 standardized questionnaire** to assess software quality.
+We used two main instruments. An **interview guide** was used to gather firsthand accounts of navigation difficulties encountered when entering unfamiliar areas of the campus. For the technical evaluation, we used the **ISO 25010 standardized questionnaire**, which assesses software across key dimensions including functionality, usability, efficiency, reliability, and compatibility.
 
-The data was analyzed through thematic analysis for the qualitative responses, and weighted mean with a Likert scale for the quantitative evaluation — ensuring both the user perspective and the technical perspective were captured.
+Our data collection followed a structured ethical procedure. We first secured clearance from the **Ethics Review Committee** of SPUP, followed by endorsement from our dissertation adviser and the Dean of Information Technology. Participation was strictly voluntary, and **informed consent** was obtained from every participant, with the purpose, rights, risks, and benefits of the study clearly explained. Only after these safeguards were in place did we proceed with the interviews, system development, and the final ISO 25010 evaluation by IT experts.
+
+For data analysis, we employed three techniques. **Thematic analysis** was used to identify recurring patterns in the navigation problems reported by participants. **Weighted mean** was computed to determine the extent of the system's compliance with ISO 25010 standards. And a **Likert scale** provided the descriptive equivalents — translating numerical ratings into meaningful interpretations of system quality.
 
 ---
 
@@ -88,25 +90,6 @@ These are the five key references that grounded our study, ranging from AR-based
 ### SLIDE 10 — THANK YOU *(10 seconds)*
 
 Thank you for your time and attention. We would now be glad to answer any questions you may have.
-
----
-
-## TIMING SUMMARY
-
-| Slide | Time | Cumulative |
-|-------|------|------------|
-| 1 — Title | 0:15 | 0:15 |
-| 2 — Introduction | 0:40 | 0:55 |
-| 3 — Research Questions | 0:25 | 1:20 |
-| 4 — Methods | 0:45 | 2:05 |
-| 5 — Key Findings 1 | 0:50 | 2:55 |
-| 6 — Key Findings 2 | 0:40 | 3:35 |
-| 7 — Conclusion | 0:45 | 4:20 |
-| 8 — Implications | 0:40 | 5:00 |
-| 9 — References | 0:10 | 5:10 |
-| 10 — Thank You | 0:10 | 5:20 |
-
-**Buffer:** Slides 9 and 10 can be very fast (just point and move on), bringing you safely under 5 minutes.
 
 ---
 
