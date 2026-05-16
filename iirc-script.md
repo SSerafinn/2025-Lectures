@@ -77,16 +77,21 @@ We therefore recommend that the University's ICT Department pilot and roll out t
 
 ---
 
-### SLIDE 8 — IMPLICATIONS *(40 seconds)*
+### SLIDE 8 — IMPLICATIONS *(1 minute 15 seconds)*
 
-Practically, this system reduces confusion and saves time for everyone navigating our campus.
+The findings of this study carry implications across three important dimensions.
 
-Institutionally, it positions SPUP as a model for **smart-campus initiatives** in Philippine higher education, and supports our digital transformation goals.
+**Practically**, the SPUP AR Navigation System directly improves the daily experience of everyone who moves through our campus. New students no longer have to rely on asking strangers for directions, visitors can find offices like the Registrar or Cashier with confidence, and faculty and staff save valuable time that can be redirected to more meaningful work. In short, the system transforms navigation from a source of stress into a seamless part of the campus experience.
 
-Theoretically, it demonstrates how AR and AI can be meaningfully integrated for user-centered navigation — and it directly contributes to **Sustainable Development Goals 4, 9, and 11**: Quality Education, Innovation, and Sustainable Cities.
+**Institutionally**, this study positions St. Paul University Philippines as a **model for smart-campus initiatives** in Philippine higher education. As more universities pursue digital transformation, our work demonstrates that even localized, context-specific solutions can leverage cutting-edge technologies like AR and AI. It also shows that smart-campus development does not require massive infrastructure overhauls — it can begin with a mobile application, built by student researchers, and scaled from there.
+
+**Theoretically**, our study contributes to the growing body of research on **user-centered AR navigation** in academic settings. It demonstrates that AR is not merely an entertainment technology, but a viable tool for solving practical, real-world spatial problems. And it supports the broader principle that meaningful innovation emerges when technology is designed around the needs of actual users — not the other way around.
+
+Beyond these three dimensions, our work also aligns with three **United Nations Sustainable Development Goals**: SDG 4 on Quality Education, by enhancing the learning environment; SDG 9 on Industry, Innovation, and Infrastructure, by promoting technological advancement; and SDG 11 on Sustainable Cities and Communities, by contributing to the development of smarter, more connected institutional spaces.
+
+Looking forward, future research can build on this foundation by exploring **real-time indoor mapping**, **voice-guided assistance for inclusivity**, and integration with **Bluetooth beacons and Ultra-Wideband positioning** for greater precision in multi-floor environments.
 
 ---
-
 ### SLIDE 9 — REFERENCES *(10 seconds)*
 
 These are the five key references that grounded our study, ranging from AR-based indoor navigation systems to comparative studies on spatial knowledge acquisition.
