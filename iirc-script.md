@@ -7,27 +7,33 @@
 
 ### SLIDE 1 — TITLE *(15 seconds)*
 
-Good morning/afternoon, everyone. I'm [your name], and together with my co-researchers from St. Paul University Philippines, we are pleased to present our study titled **"Campus Navigation Application Using Augmented Reality."**
+Good morning/afternoon, everyone. I'm John Paulus Serafin Gazzingan, and together with my co-researchers from St. Paul University Philippines, we are pleased to present our study titled **"Campus Navigation Application Using Augmented Reality."**
 
 ---
 
-### SLIDE 2 — INTRODUCTION *(40 seconds)*
+### SLIDE 2 — INTRODUCTION *(1 minute 15 seconds)*
 
-How many of you have walked into a new building and felt completely lost? Now imagine that's your first day at university.
+How many of you have walked into a new building and felt completely lost? Now imagine that's your first day at university — surrounded by unfamiliar buildings, unsure where the Registrar is, or which floor holds your first class. For many students, faculty, and visitors at St. Paul University Philippines, this is a real and recurring experience.
 
-Augmented Reality has rapidly evolved from industrial use into mainstream technology, reshaping education, healthcare, and daily life. Yet despite this progress, large university campuses — including ours at SPUP — still rely on static maps and signage that often confuse new students, visitors, and even staff.
+Augmented Reality, or AR, has rapidly evolved from its industrial origins into a mainstream technology that is reshaping how people perceive and interact with their surroundings. It first reached global attention through applications like **Pokémon GO in 2016**, which introduced millions of users to the concept of blending virtual elements with the real world. Since then, AR has expanded into education, healthcare, architecture, and professional workflows — proving that it is far more than just entertainment.
 
-This study addresses that gap by exploring how AR and AI can transform campus wayfinding into a smarter, more interactive experience.
+Yet despite this rapid progress, **campus navigation in many universities — including ours — still relies on static maps, printed signage, and word-of-mouth directions**. These traditional methods often fall short, especially in large, evolving campuses where buildings are constructed, renovated, or repurposed over time. The result is confusion, lost time, and decreased productivity for the very people the campus is meant to serve.
+
+This study seeks to bridge that gap. By integrating **AR and Artificial Intelligence** into a mobile navigation system, we aim to transform how users explore the SPUP campus — making it not only easier to find buildings and offices, but also more engaging and informative. More broadly, our work contributes to the ongoing **digital transformation of academic institutions** and offers a model for what smart, connected campuses can look like in the Philippine context.
 
 ---
 
-### SLIDE 3 — RESEARCH QUESTIONS *(25 seconds)*
+### SLIDE 3 — RESEARCH QUESTIONS *(45 seconds)*
 
-Our study sought to answer three questions:
+To guide our investigation, we framed three research questions that move logically from problem identification, to solution development, to system improvement.
 
-First, what challenges do visitors face when navigating the campus?
-Second, what AI-based application can be developed to address these challenges?
-And third, what enhancements can further improve the system?
+**First**, we asked: *What are the problems and challenges encountered by visitors navigating around the campus?* This question grounds our study in the lived experience of actual users — because no technology should be built without first understanding the real needs of the people it serves.
+
+**Second**, we asked: *What AI application can be developed to address these problems and challenges?* This shifts the focus from understanding the problem to actively designing and building a solution.
+
+**And third**, we asked: *What enhancements can be done to improve the developed system?* This final question acknowledges that no first version is perfect — and that meaningful systems evolve through continuous feedback and refinement.
+
+Together, these three questions form the backbone of everything that follows in this presentation.
 
 ---
 
@@ -91,7 +97,6 @@ These are the five key references that grounded our study, ranging from AR-based
 
 Thank you for your time and attention. We would now be glad to answer any questions you may have.
 
----
 
 ## DELIVERY TIPS
 
