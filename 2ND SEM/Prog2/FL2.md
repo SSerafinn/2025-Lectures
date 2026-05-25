@@ -1,11 +1,5 @@
 # Tkinter + SQLite
 
-### A Beginner-Friendly Lecture for Programming 2
-
-*Build your first desktop app that remembers your data.*
-
----
-
 ## What You Will Learn
 
 By the end of this lecture, you will have built a complete **Notes App** — a desktop program where users can write notes, save them, and see them again the next time they open the app. Along the way, you will learn:
