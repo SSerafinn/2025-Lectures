@@ -858,40 +858,4 @@ conn.commit()                           # Save changes!
 conn.close()                            # Close database
 ```
 
----
-
-## Practice Activities
-
-Try building these on your own, using the Notes App as a template:
-
-1. **Task List** — Same as the Notes App, but call them "tasks." Add a column for whether the task is "done" (text: "yes" or "no").
-2. **Phonebook** — Save contact names and phone numbers. The table has columns `name` and `phone`.
-3. **Grade Logger** — Save subjects and grades. Show the average grade at the bottom of the window.
-4. **Sari-Sari Inventory** — Save product names and prices. Show the total value of all stock.
-
-For each one, follow the same pattern:
-
-1. Design your table (what columns?)
-2. Build the widgets (entries for input, listbox for display)
-3. Write the save, refresh, and delete functions
-4. Add confirmation dialogs for safety
-
----
-
-## What's Next?
-
-When you're comfortable with this, you can explore:
-
-- **Multiple columns in the Entry form** — Save name AND age AND course at the same time
-- **Editing notes** — Click a note, edit it, click "Update"
-- **Searching notes** — A search bar that filters the listbox
-- **`ttk.Treeview`** — A nicer table widget for showing rows with multiple columns
-- **Multiple tables** — A students table linked to a grades table
-
-Each step adds a little more power. But everything you do from here on out is built on the foundation you just learned in this lecture.
-
-You now know enough to build real, useful desktop apps. Go build something.
-
----
-
 *End of Lecture*
