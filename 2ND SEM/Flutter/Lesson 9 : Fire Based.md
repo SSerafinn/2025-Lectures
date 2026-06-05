@@ -507,14 +507,6 @@ Today you learned to:
 
 ---
 
-## Looking Ahead (Next Lectures)
-
-- **Cloud Firestore** — store and read user data (profiles, app content)
-- **Google Sign-In** — one-tap auth without typing passwords
-- **Form validation & password reset** — production-grade auth UX
-
----
-
 ## Quick Exercise (For Students)
 
 1. Add a **"Forgot password?"** text button to the auth screen that calls
