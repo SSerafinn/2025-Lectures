@@ -400,7 +400,7 @@ service cloud.firestore {
 
 Click **Publish**.
 
-> **Read this carefully with your students — it's the security lesson:**
+> **Security Reason for the rules:**
 > - `request.auth` is the identity of whoever is making the request. If it's `null`, they're not logged in → deny everything.
 > - `resource.data.ownerId` is the `ownerId` of the document *already in the database* (used for read / update / delete).
 > - `request.resource.data.ownerId` is the `ownerId` of the document *being written* (used for create and update).
@@ -424,7 +424,7 @@ The first time you run a query that both **filters** (`where`) and **sorts** (`o
 
 > **If the link won't open** (some consoles render it un-clickable), create the index by hand: **Firestore Database → Indexes → Composite → Create index**, then enter Collection ID `notes`, field `ownerId` Ascending, field `createdAt` Descending, and Create. Firestore appends `__name__` automatically — don't add it yourself. Adding the edit feature does **not** change this query, so no new index is needed for update.
 
-> Teaching note: don't hide this from students — show it live. Knowing how to read the error and create the index is a real Firestore skill.
+
 
 ---
 
